@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rtk ls:*)",
+      "WebSearch",
+      "Bash(grep -E \"\\\\.\\(md|json\\)$\")",
+      "Bash(find:*)",
+      "Bash(node ~/.claude/plugins/cache/bkit-marketplace/bkit/2.0.5/scripts/pre-write.js)",
+      "Bash(echo \"EXIT: $?\")",
+      "Bash(xargs grep:*)",
+      "Bash(rm -rf ~/.claude/plugins/marketplaces/bkit-marketplace/)",
+      "Bash(rm -rf ~/.claude/plugins/cache/bkit-marketplace/)",
+      "Bash(rtk git:*)"
+    ]
+  }
+}
